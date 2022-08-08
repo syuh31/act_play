@@ -1,0 +1,9 @@
+name: Sample
+
+on: repository_dispatch
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo test
